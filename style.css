@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end; /*space between თუ გამოვიყენებ იქნება შუაში ლინკები */
+    align-items: center;
+    padding: 30px 15%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto; /*ამის გარეშე ლოგო იქნება ლინკებთანე რთად */
+    width: 114px;
+    height: 45px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+
+    /* 13183F */
+
+    color: #13183F;
+}
+
+
+.cta {
+    position: absolute;
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    background: #13183F;
+    text-align: center;
+    padding-top: 14px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    transition: all 0.3s ease;
+    text-decoration: none;
+    /* FFFFFF */
+
+    color: #FFFFFF;   
+}
+
+.cta:hover{
+    background: #666CA3;
+}
+
+.leftcontainer{
+    position: absolute;
+    width: 457px;
+    height: 359px;
+    top: 252px;
+    left: 165px;
+}
+
+.firsth{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+
+    /* 13183F */
+
+    color: #13183F;
+}
+
+.p1{
+    margin-top: 29px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+
+    /* 83869A */
+
+    color: #83869A;
+}
+
+.cta2{
+    position: absolute;
+    margin-top: 40px;
+    width: 167px;
+    height: 63px;
+    border-radius: 31.5px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    text-align: center;
+    padding-top: 16px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    transition: all 0.8s ease;
+    /* identical to box height, or 156% */
+
+
+    /* FFFFFF */
+
+    color: #FFFFFF;
+}
+
+.cta2:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);   
+}
+
+
+.rightcontainer{
+    position: absolute;
+    height: 936.91650390625px;
+    width: 991.630859375px;
+    left: 784px;
+    top: 146px;
+}
+
+.photo1{
+    position: absolute;
+    width: 317px;
+    height: 560px;
+    left: 504px;
+    border-radius: 158.5px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 158.5px;
+    z-index: 2;
+}
+
+.hours{
+    position: absolute;
+    width: 199px;
+    height: 120px;
+    left: 384px;
+    top: 309px;
+
+    /* FFFFFF */
+
+    background: #FFFFFF;
+    box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
+    border-radius: 15px;
+    z-index: 5;
+}
+
+.p5{
+    position: absolute;
+    background: transparent;
+    margin-left: 24px;
+    height: 28px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 28px/2 - 26.5px);
+
+    /* Body S */
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+
+    /* 83869A */
+
+    color: #83869A;
+}
+
+.h5{
+    position: absolute;
+    background: transparent;
+    margin-left: 24px;
+    height: 50px;
+    left: 0%;
+    right: 2.91%;
+    top: calc(50% - 50px/2 + 14.5px);
+
+    /* Heading L */
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+
+    /* 13183F */
+
+    color: #13183F;
+
+}
+
+.members{
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 784px;
+    top: 100px;
+    z-index: 5;
+
+    /* FFFFFF */
+
+    background: #FFFFFF;
+    box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
+    border-radius: 15px;
+}
+
+.photo2{
+    position: absolute;
+    width: 297px;
+    height: 1008px;
+    left: 761.48px;
+    top: -348.13px;
+    border-radius: 158.5px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 158.5px;
+    transform: rotate(45deg);
+}
+
+
+.about{
+    position: absolute;
+    width: 1440px;
+    height: 888px;
+    top: 837px;
+}
+
+
+.group13{
+    position: absolute;
+    width: 356px;
+    height: 322px;
+    left: 165px;
+}
+
+.secondh{
+    position: absolute;
+    height: 120px;
+    left: 9.14%;
+    right: 9.14%;
+    top: calc(50% - 120px/2 - 37px);
+    background: transparent;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+
+}
+
+
+.animation{
+    position: absolute;
+    width: 350px;
+    height: 322px;
+    left: 545px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+}
+
+.icon{
+    position: absolute;
+    margin-left: 32px;
+    bottom: 290px;
+    background: transparent;
+}
+
+.hh2{
+    position: absolute;
+    margin-top: 64px;
+    height: 30px;
+    background: transparent;
+    margin-left: 32px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+
+
+    color: #13183F;
+}
+
+.p2{
+    position: absolute;
+    margin-left: 32px;
+    background: transparent;
+    width: 286px;
+    height: 112px;
+    top: 118px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+
+    /* 83869A */
+
+    color: #83869A;
+}
+
+
+.cta3{
+    position: absolute;
+    background: transparent;
+    width: 104px;
+    height: 28px;
+    top: 254px;
+    margin-left: 32px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    /* identical to box height, or 156% */
+
+
+    /* F74780 */
+
+    color: #F74780;
+}
+
+.cta3:hover{
+    color: #FFA7C3;
+}
+
+.design{
+    position: absolute;
+    width: 350px;
+    height: 322px;
+    left: 925px;background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+}
+
+
+.photography{
+    position: absolute;
+    width: 350px;
+    height: 322px;
+    left: 165px;
+    top: 426px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+}
+
+.crypto{
+    position: absolute;
+    width: 350px;
+    height: 322px;
+    left: 545px;
+    top: 426px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+}
+
+
+.business{
+    position: absolute;
+    width: 350px;
+    height: 322px;
+    left: 925px;
+    top: 426px;
+
+    /* FFFFFF */
+
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 1725px;
+
+    /* 13183F */
+
+    background: #13183F;
+    display: flex;
+    justify-content: flex-end; /*space between თუ გამოვიყენებ იქნება შუაში ლინკები */
+    align-items: center;
+    padding: 30px 15%;
+}
+
+.logo2{
+    cursor: pointer;
+    margin-right: auto; /*ამის გარეშე ლოგო იქნება ლინკებთანე რთად */
+    width: 114px;
+    height: 45px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+
+    /* 13183F */
+
+    color: #FFFFFF;
+    background: transparent;
+}
+
+.cta4{
+    position: absolute;
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    background: #13183F;
+    text-align: center;
+    padding-top: 14px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    transition: all 0.3s ease;
+    text-decoration: none;
+    /* FFFFFF */
+
+    color: #FFFFFF;   
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+    transition: all 0.3s ease;
+}
+
+.cta4:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+
+
+
+/*** media queries*/
+
+@media screen and (max-width: 768px), 
+       screen and (min-height: 1760px) {
+        header{
+            display: flex;
+            justify-content: flex-end; /*space between თუ გამოვიყენებ იქნება შუაში ლინკები */
+            align-items: center;
+            padding: 31px 40px;
+        }
+
+        .leftcontainer{
+            position: absolute;
+            height: 101px;
+            left: 39px;
+            right: 18.09%;
+
+            /* Heading L */
+
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 50px;
+
+            /* 13183F */
+
+            color: #13183F;
+        }
+
+        .firsth{
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        .p1{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+        .cta2{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+        .rightcontainer{
+            background: transparent;
+            position: absolute;
+            width: 640.71px;
+            height: 640px;
+            left: 5px;
+        }
+
+        .photo1{
+            position: absolute;
+            width: 216.54px;
+            height: 382.53px;
+        }
+
+        .photo2{
+            position: absolute;
+            width: 216.54px;
+            height: 688.56px;
+            top: -252px;
+            left: 700px;
+        }
+
+        .hours{
+            position: absolute;
+            width: 155px;
+            height: 100px;
+        }
+
+        .members{
+            position: absolute;
+            width: 105px;
+            height: 100px;
+            left: 643px;
+            top: -30px;
+        }
+
+        .p5{
+            font-size: 14px;
+            line-height: 28px;
+        }
+
+        .h5{
+            font-size: 32px;
+            line-height: 40px;
+        }
+
+        .group13{
+            position: absolute;
+            height: 259px;
+            width: 339px;
+            left: 39px;
+        }
+
+        .mask{
+            height: 259px;
+            width: 339px;
+        }
+
+        .secondh{
+            font-size: 24px;
+            line-height: 32px;
+        }
+
+        .animation{
+            position: absolute;
+            width: 340px;
+            height: 259px;
+            border-radius: 10px;
+            left: 388px;
+        }
+
+        .icon{
+            position: absolute;
+            bottom: 227px;
+        }
+
+        .hh2{
+            position: absolute;
+            bottom: 178px;
+            font-size: 20px;
+            line-height: 25px;
+        }
+
+        .p2{
+            position: absolute;
+            top: 97px;
+            font-size: 16px;
+            line-height: 26px;
+        }
+  
+        .cta3{
+            position: absolute;
+            top: 199px;
+        }
+
+        .design{
+            position: absolute;
+            width: 339px;
+            height: 259px;
+            border-radius: 10px;
+            left: 39px;
+            top: 339px;
+        }
+
+        .photography{
+            position: absolute;
+            width: 339px;
+            height: 259px;
+            border-radius: 10px;
+            left: 389px;
+            top: 339px;
+        }
+
+        .crypto{
+            position: absolute;
+            width: 339px;
+            height: 259px;
+            border-radius: 10px;
+            left: 39px;
+            top: 654px;
+        }
+
+        .business{
+            position: absolute;
+            width: 339px;
+            height: 259px;
+            border-radius: 10px;
+            left: 389px;
+            top: 654px;
+        }
+
+        footer{
+            position: absolute;
+            width: 100%;
+            height: 120px;
+            top: 1840px;
+        }
+
+        .logo2{
+            width: 89px;
+            height: 35px;
+            position: absolute;
+            left: 40px;
+            right: 87.08%;
+            top: calc(50% - 35px/2 + 0.5px);
+
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 28px;
+            line-height: 35px;
+        }
+
+        .cta4{
+            width: 140px;
+            height: 48px;
+            border-radius: 28px;
+            position: absolute;
+            left: 589px;
+            top: 36px;
+            font-size: 16px;
+            line-height: 28px;
+            padding-top: 10px;
+        }
+}
+
+@media screen and (max-width: 375px), 
+       screen and (min-height: 2615px) {
+        header{
+            display: flex;
+            justify-content: flex-end; /*space between თუ გამოვიყენებ იქნება შუაში ლინკები */
+            align-items: center;
+            padding: 22px 20px;
+        }
+
+        .logo{
+            width: 89px;
+            height: 35px;
+            font-size: 28px;
+            line-height: 35px;
+        }
+
+        .cta{
+            position: absolute;
+            width: 140px;
+            height: 48px;
+            border-radius: 28px;
+            font-size: 16px;
+            line-height: 28px;
+            padding-top: 10px;
+        }
+        .leftcontainer{
+            position: absolute;
+            width: 343px;
+            height: 101px;
+            left: 16px;
+            top: 102px;
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        .cta2{
+            width: 167px;
+            height: 56px;
+            border-radius: 31.5px;
+            position: absolute;
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+        .rightcontainer{
+            position: absolute;
+            width: 327px;
+            height: 301px;
+            left: 24px;
+            top: 433px;
+        }
+
+        .photo1{
+            position: absolute;
+            height: 253px;
+            width: 253px;
+            left: 41px;
+            top: 57px;
+            border-radius: 158.5px;
+
+        }
+
+        .photo2{
+            display: none;
+        }
+
+        .members{
+            position: absolute;
+            width: 105px;
+            height: 100px;
+            left: 216px;
+            top: 43px;
+        }
+
+        .hours{
+            position: absolute;
+            width: 155px;
+            height: 100px;
+            left: 15px;
+            top: 224px;
+            border-radius: 10px;
+        }
+
+        .mask{
+            position: absolute;
+            height: 120px;
+            width: 343px;
+            left: -28px;
+            top: 0px;
+            border-radius: 10px;
+        }
+
+        .secondh{
+            font-size: 24px;
+            line-height: 32px;
+        }
+
+        .animation{
+            width: 343px;
+            height: 259px;
+            top: 24px;
+            position: absolute;
+            left: 16px;
+            top: 170px;
+        }
+
+        .design{
+            position: absolute;
+            height: 259px;
+            width: 343px;
+            left: 19px;
+            top: 470px;
+        }
+
+        .photography{
+            height: 259px;
+            width: 343px;
+            left: 19px;
+            top: 764px;
+            position: absolute;
+        }
+
+        .crypto{
+            position: absolute;
+            height: 259px;
+            width: 343px;
+            left: 19px;
+            border-radius: 10px;
+            top: 1057px;
+        }
+
+        .business{
+            position: absolute;
+            height: 259px;
+            width: 343px;
+            left: 19px;
+            top: 1356px;
+
+        }
+
+        footer{
+            position: absolute;
+            width: 375px;
+            height: 120px;
+            top: 2495px;
+        }
+
+        .logo2{
+            position: absolute;
+            width: 89px;
+            height: 35px;
+            font-size: 28px;
+            line-height: 35px;
+            left: 16px;
+        }
+
+        .cta4{
+            position: absolute;
+            width: 140px;
+            height: 48px;
+            left: 203px;
+        }
+}
